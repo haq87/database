@@ -13,6 +13,11 @@
             "name": "Mior Muhammad Zaki",
             "email": "crynobone@gmail.com",
             "homepage": "https://github.com/crynobone"
+        },
+        {
+            "name": "Moh Dhiyaulhaq",
+            "email": "dhiyaulhaq87@gmail.com",
+            "homepage": "https://github.com/haq87"
         }
     ],
     "autoload": {
@@ -21,10 +26,10 @@
         }
     },
     "require": {
-        "php": "^7.4 || ^8.0",
-        "illuminate/contracts": "^9.0",
-        "illuminate/database": "^9.0",
-        "illuminate/support": "^9.0",
+        "php": "^7.4 || ^8.0 || ^8.1",
+        "illuminate/contracts": "^10.0",
+        "illuminate/database": "^10.0",
+        "illuminate/support": "^10.0",
         "laravie/query-filter": "dev-master"
     },
     "suggest": {
@@ -32,7 +37,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "7.0-dev"
+            "dev-master": "8.0"
         },
         "laravel": {
             "providers": [
@@ -47,5 +52,5 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "stable"
 }
